@@ -18,7 +18,7 @@ function myfuction(variable) {
   return variable; //En general las funciones van a retonar algo
 }
 
-//Funvion flecha
+//Funcion flecha
 const myArrowFuction = (variable) => variable;
 
 //Ejecucion de una funcion
@@ -50,3 +50,9 @@ const objeto = {
 
 //Los objetos estan compuestos por clave valor
 console.log(objeto.clave);
+
+//Bucle for
+const arrayNumeros = (1, 2, 3);
+for (let i = 0; i < arrayNumeros.length; i++) {
+  console.log(arrayNumeros[i]);
+}
