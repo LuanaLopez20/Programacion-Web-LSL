@@ -18,9 +18,6 @@ body {
   cursor: pointer;
 }
 
-.bebida {
-}
-
 .carrito {
   display: flex;
   justify-content: right;

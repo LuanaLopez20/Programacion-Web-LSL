@@ -1,0 +1,57 @@
+p h2 {
+  color: blueviolet;
+}
+
+.contenedor {
+  background-color: rgb(96, 119, 247); /*color de fondo*/
+  color: rgb(54, 76, 197); /*modifica el color del texto*/
+  padding: 100px;
+  display: flex;
+  flex-direction: column; /*si hay flex direction los elementos se centran con align-items*/
+  gap: 8px;
+  width: 130px;
+  height: 150px;
+  font-size: 11px;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor1 {
+  color: rgb(88, 85, 82);
+  font-size: 8px;
+  font-style: initial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+input {
+  max-width: 150px;
+  min-height: 20px;
+}
+button {
+  max-width: 150px;
+  min-width: 155px;
+  min-height: 25px;
+}
+
+body {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.VOLVER {
+  color: rgb(0, 0, 0); /*modifica el color del texto*/
+  display: flex;
+}
