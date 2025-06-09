@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Style2.css" />
-    <title>Actividad</title>
-  </head>
-  <body>
-    <div class="contenedor">
+<html lang="es">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="Style2.css" />
+   <title>Actividad</title>
+ </head>
+ <body> 
+     <script src="Actividad.js"></script>
+     <div class="contenedor">
       <h1>Bienvenido</h1>
       <form class="contenedor2" action="procesar.js" method="post">
         <input
@@ -24,11 +25,11 @@
         />
       </form>
       <div class="BOTON">
-        <button type="submit">Crear Cuenta</button>
+          <button onclick="verificarLogin()">Crear</button>
+          <div id="error" class="error"></div>
     <div class="VOLVER">
       <h4>
         <a href="http://127.0.0.1:5500/Falso%20login/Index.html">Volver</a>
       </h4>
-    </div>
-  </body>
+ </body>
 </html>

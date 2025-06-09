@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Style.css" />
-    <title>Actividad</title>
-  </head>
-  <body>
-    <div class="contenedor">
+<html lang="es">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="Style.css" />
+   <title>Actividad</title>
+ </head>
+ <body> 
+     <script src="Actividad.js"></script>
+     <div class="contenedor">
       <h1>Bienvenido</h1>
       <form class="contenedor2" action="procesar.js" method="post">
         <input type="text" id="Usuario" name="Usuario" placeholder="Usuario" />
@@ -18,10 +19,11 @@
           placeholder="Contraseña"
         />
       </form>
-      <div class="BOTON">
-        <button type="submit">Login</button>
+       <div class="BOTON">
+        <button onclick="verificarLogin()">Login</button>
+        <div id="error" class="error"></div>
       </div>
-      <div class="contenedor1">
+               <div class="contenedor1">
         <h4>
           <a
             href="https://github.com/LuanaLopez20/Programacion-Web"
@@ -37,11 +39,10 @@
           >
         </h4>
       </div>
-    </div>
+    </div> 
     <div class="VOLVER">
       <h4>
-        <a href="https://github.com/LuanaLopez20/Programacion-Web">Volver</a>
+        <a href="http://127.0.0.1:5500/Falso%20login/Index.html">Volver</a>
       </h4>
-    </div>
-  </body>
+ </body>
 </html>
